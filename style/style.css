@@ -4,6 +4,25 @@
 /* # = id */
 /* h1 = elemen */
 
+/* ul {
+    list-style-type: none;
+} */
+
+/* .warna-baris {
+    background-color: aquamarine;
+    padding: 5px;
+    margin-bottom: 5px;
+} */
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .red {
     color: red;
 }
@@ -16,6 +35,10 @@
 h1,
 p {
     text-align: left;
+}
+
+table .baris_tebal td {
+    background-color: aqua;
 }
 
 table {
