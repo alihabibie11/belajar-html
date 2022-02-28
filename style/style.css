@@ -8,12 +8,6 @@
     list-style-type: none;
 } */
 
-/* .warna-baris {
-    background-color: aquamarine;
-    padding: 5px;
-    margin-bottom: 5px;
-} */
-
 
 ul {
     list-style-type: none;
@@ -51,4 +45,38 @@ td {
 
 .baris_tebal {
     font-weight: 600;
+}
+
+img {
+    margin-right: 5px;
+    /* margin: 0 5px 0 0; */
+}
+
+/* disini animation dari keyframe */
+img:hover {
+    animation: muter 5s infinite;
+}
+
+/* margin itu jarak ke luar antar elemen */
+/* padding itu jarak di dalam elemen */
+.warna-baris {
+    background-color: aquamarine;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.test-hover:hover {
+    background-color: red;
+    font-size: 20px;
+}
+
+/* .huruf-besar {
+    font-size: 20px;
+} */
+
+/* utk buat animasi, kemudian nama keyframe ini di panggil di selector css didalam property animation */
+@keyframes muter {
+    50% {
+        transform: rotate(360deg);
+    }
 }
