@@ -53,9 +53,9 @@ img {
 }
 
 /* disini animation dari keyframe */
-img:hover {
+/* img:hover {
     animation: muter 5s infinite;
-}
+} */
 
 /* margin itu jarak ke luar antar elemen */
 /* padding itu jarak di dalam elemen */
@@ -68,6 +68,14 @@ img:hover {
 .test-hover:hover {
     background-color: red;
     font-size: 20px;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+.tombol-simpan {
+    margin: 10px 0;
 }
 
 /* .huruf-besar {
